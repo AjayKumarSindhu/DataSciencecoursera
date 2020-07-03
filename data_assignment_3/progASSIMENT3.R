@@ -11,6 +11,7 @@ best <- function(state,outcome = 3||4||5){
     print(b[1])
     }
 }
+## to get the correct answer install 'dplyr' packages
 rankhospital <- function(state, outcome, rank){
   setwd("C:/Users/Dell/Desktop/Coursera/DataScienceCoursera/DataScienceCoursera/data_assignment_3")
   output <- read.csv("outcome-of-care-measures.csv",stringsAsFactors = FALSE, na.strings = c("Not Available"))
